@@ -1,4 +1,3 @@
-@import url (https://fonts.googleapis.com/css2?family=Bebas+Neue);
 /* Arquivo responsável pelos estilos */
 /* Aula 24/04/2023 - Estilos do Menu */
 body, ul {
@@ -51,16 +50,25 @@ body, ul {
 #btn-mobile {
     display: none;
 }
+.carousel-inner .carousel-item img {
+    width: 100%;
+    margin: auto;
+    max-height: 800px;
+    padding-top: 85px;
+}
+
+/*
 #carouselExampleInterval {
     position: relative;
     z-index: 10;
-    padding-top: 75px;
+    padding-top: 85px;
     width: 100%;
 }
 #carouselExampleInterval img {
     height: auto;
     width: auto;
 }
+*/
 
 /* css Estilos Banner*/
 .section-banner-home {
@@ -83,16 +91,18 @@ body, ul {
     width: 60%;
     font-weight: 500;
     padding-bottom: 20px;
+    color: rgb(0, 0, 0);
 }
 .section-banner-home .texto-banner p {
     font-size: 15px;
     margin-bottom: 20px;
+    color: rgb(0, 0, 0);
 }
 .section-banner-home .texto-banner a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    background-color: #fff;
-    padding: 4px 14px;
+    background-color: #ffe3f9;
+    padding: 4px 4px;
     font-size: 15px;
 }
 /* Fim css estilos Banner */

@@ -14,7 +14,7 @@ body, ul {
 
 }
 #menu a:hover {
-    color: #ffe3f9;
+    color: #ffe4e1;
     font-size: 1.6em;
     transition: 0.3s;
     text-shadow: 4px 4px 6px #0000007a;
@@ -40,7 +40,7 @@ body, ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #e7e7e7;
+    background: #f6dcd3;
 }
 #menu {
     display: flex;
@@ -76,7 +76,7 @@ body, ul {
     height: 500px;
     margin-top: 10px;
     padding: 50px;
-    background-color: #ffe3f9;    
+    background-color: #f6dcd3;    
 }
 .section-banner-home img {
     height: 400px;
@@ -99,9 +99,9 @@ body, ul {
     color: rgb(0, 0, 0);
 }
 .section-banner-home .texto-banner a {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    background-color: #ffe3f9;
+    background-color: #f7bfb4;
     padding: 4px 4px;
     font-size: 15px;
 }
@@ -138,7 +138,7 @@ body, ul {
     margin: 30px 0;
 }
 .destaque a:hover {
-    color: #9adfff;
+    color: #000000;
     font-size: 24px;
     transition: 0.3s;
     text-shadow: 4px 4px 6px #0000007a;
@@ -161,18 +161,28 @@ body, ul {
     color: rgb(0, 0, 0);
 }
 .novidades a {
-    color: rgb(255, 255, 255);
+    color: #444444;
     text-decoration: underline;
-    text-decoration-color: violet;
+    text-decoration-color: #444444;
     padding: 6px 12px;
-    background-color: rgb(0, 68, 194);
+    background-color: #f6f1ee;
     font-weight: 400;
 }
 /* Fim CSS Novidades */
 /* Início CSS Galeria */
 
 .galeria {
+    /*  Quando tivermos 4 valores no margin = top / right / bottom / left 
+    >   Ex: margin: 60px 60px 60px 60px;
+        Quando tivermos 3 valores = top / right and left / bottom 
+    >   Ex: margin: 60px auto 60px;
+        Quando tivermos 2 valores = top and bottom / right and left 
+    >   Ex: margin: 60px 30px;
+        Quando tivermos 1 valor = all sides
+    >   Ex: margin: 60px; 
+    >>  Essa regra também vale para padding << */
     margin: 60px auto 20px;
+    
 }
 .galeria h2 {
     text-align: center;
@@ -187,3 +197,36 @@ body, ul {
     width: 30%;
     margin: 14px auto 50px;
 }
+/* Fim CSS Galeria */
+
+/* Início CSS Footer */
+.rodape {
+    padding: 50px 50px 0;
+}
+.rodape .container img {
+    height: 50%;
+    width: 50%;
+}
+.rodape .info-contato p {
+    margin: 0;
+}
+.rodape a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+.rodape a:hover {
+    font-weight: bold;
+}
+.rodape .redes-sociais {
+    display: inline-block;
+}
+.rodape .redes-sociais img {
+    width: 45px;
+    height: 40px;
+}
+.rodape p.direitos {
+    text-align: center;
+    margin-top: 40px;
+}
+/* Fim CSS Footer */

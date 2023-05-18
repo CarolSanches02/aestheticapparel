@@ -261,6 +261,18 @@ body, ul {
     width: 30%;
     margin: 14px auto 50px;
 }
+.galeria .gallery img {
+    width: 80%;
+    height: 81.82%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    display: block;
+}
+.galeria .gallery img:hover {
+    -webkit-transform: scale(1.9);
+    transform: scale(1.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
 /* Fim CSS Galeria */
 
 /* Início CSS Footer */
@@ -270,6 +282,11 @@ body, ul {
 .rodape .container img {
     height: 50%;
     width: 50%;
+    padding-left: 10px;
+    transition: transform .2s;
+}
+.rodape .container img:hover {
+    transform: scale(1.5);
 }
 .rodape .info-contato p {
     margin: 0;

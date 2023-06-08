@@ -521,5 +521,8 @@ body, ul {
         filter: 110%;
     }
 }
-
+.card img {
+    height: 400px;
+    width: 350px;
+}
 /* Fim Whatsapp */

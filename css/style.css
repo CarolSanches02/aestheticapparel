@@ -381,7 +381,6 @@ body, ul {
 .embed-container .col-lg-6 {
     margin-top: 20px;
 }
-
 /* Fim CSS Streaming */
 
 /* Início CSS Contato */
@@ -404,17 +403,11 @@ body, ul {
     padding-bottom: 9px;
     position: relative;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 #text-local {
     border-bottom: 1px solid #fcab0e;
     margin-bottom: 9px;
     position: relative;
 }
->>>>>>> 158a67bac9ec7041de84f0d5a25120b58c74a124
->>>>>>> 06d2da5f8fb85b0d8d38436137e13119cf8840d2
 .text-left span {
     background: #9e6600 none repeat scroll 0 0;
     bottom: -2px;
@@ -435,15 +428,7 @@ body, ul {
 }
 .form-control[type="email"] {
     border: 1px solid #ccc;
-<<<<<<< HEAD
-    margin: 10px 0 0;
-=======
-<<<<<<< HEAD
-    margin: 10px 0 0;
-=======
     margin: 10px 0;
->>>>>>> 158a67bac9ec7041de84f0d5a25120b58c74a124
->>>>>>> 06d2da5f8fb85b0d8d38436137e13119cf8840d2
     padding: 10px 0 10px 5px;
     width: 100%;
 }
@@ -484,13 +469,6 @@ body, ul {
 /* Fim CSS Contato */
 
 /* Início CSS Mapa */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-
->>>>>>> 158a67bac9ec7041de84f0d5a25120b58c74a124
->>>>>>> 06d2da5f8fb85b0d8d38436137e13119cf8840d2
 .map {
     width: auto;
     height: 300px;
@@ -499,13 +477,6 @@ body, ul {
     width: 100%;
     height: 100%;
 }
-<<<<<<< HEAD
-/* Fim CSS Mapa */
-=======
-<<<<<<< HEAD
-/* Fim CSS Mapa */
-=======
-
 /* Fim CSS Mapa */
 
 /* Início Whatsapp */
@@ -590,8 +561,7 @@ body, ul {
     color: black;
     font-weight: 400;
     border: none;
+    outline: 0px solid transparent;
 }
 
 /* Fim CSS Card Produtos */
->>>>>>> 158a67bac9ec7041de84f0d5a25120b58c74a124
->>>>>>> 06d2da5f8fb85b0d8d38436137e13119cf8840d2
